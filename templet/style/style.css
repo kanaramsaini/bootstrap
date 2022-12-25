@@ -1,0 +1,43 @@
+
+#logo{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+
+#headar{
+    color: #fff;
+    background-color: rgb(77, 77, 74);
+}
+#menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#menu li{
+    display: inline-block;  
+   
+    text-transform: capitalize;
+}
+#menu li a{
+    color:#fff;
+    padding: 20px 15px;
+    display: block;
+}
+#menu li a:hover{
+    background-color: rgb(31, 31, 29);
+}
+#banner{
+    background: url('../images/banner1.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+#banner #title{
+    color:rgb(255, 255, 255,0.9);
+}
+#banner #pera{
+    background-color: rgb(66, 36, 36,0.2);
+    font-size: 1.5rem;
+    word-spacing: 4px;
+    color:rgb(255, 255, 255,0.9);
+}
