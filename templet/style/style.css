@@ -6,7 +6,9 @@
 
 #headar{
     color: #fff;
-    background-color: rgb(77, 77, 74);
+    background-color:rgb(71, 68, 68);
+   
+   
 }
 #menu{
     list-style: none;
@@ -30,6 +32,7 @@
     background: url('../images/banner1.jpg');
     background-repeat: no-repeat;
     background-size:cover;
+    position: relative;
     
 }
 #banner #title{
@@ -40,4 +43,121 @@
     font-size: 1.5rem;
     word-spacing: 4px;
     color:rgb(255, 255, 255,0.9);
+}
+#service{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#service h1#service-head{
+    text-align: center;
+    padding-bottom: 45px;
+}
+#service h1#service-head:after{
+    background: rgba(231, 76, 60);
+    content: "";
+    display: block;
+    width: 150px;
+    height: 3px;
+    margin: 20px auto;
+}
+.service-box{
+    text-align: center;
+    text-transform: capitalize;
+}
+.service-box:hover{
+    border:0px solid rgba(231, 76, 60);
+    background-color: rgb(182, 192, 35,0.8);
+    transition:all;
+    color:white;
+    transition-duration: 3s ;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.service-box i.fa{
+    color:rgba(231, 76, 60);
+    font-size: 90px;
+    margin-bottom: 15px;
+}
+#testimonials{
+    background-color: grey;
+    padding-top:20px;
+    padding-bottom:80px;
+    text-align: center;
+    text-transform: capitalize;
+}
+#testimonials .tex-mono{
+    background-color: rgb(46, 44, 44);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.testimonial{
+                border-radius: 20px;
+                border: 1px solid black;
+                text-align: center;
+                
+                padding: 5px;
+                color:#fff;
+                background-color: rgb(14, 10, 10);
+                
+}
+.testimonial img{
+    border:1px solid black;
+    width: 50px;
+    height: 50px;
+   margin-top: -30px;
+    border-radius: 50%;
+    background-color: rgb(77, 131, 131,0.3);
+
+
+}
+.testimonial h5{
+    color:#fff;
+    font-size: 25px;
+}
+.testimonial h5 p{
+    color:#fff;
+    font-size:15px ;
+}
+
+
+
+
+
+
+
+
+
+
+.news-post img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.news-post h3{
+    font-size: 1.5rem;
+}
+
+.news-post h3 a{
+    color: rgba(231, 76, 60);
+}
+
+.post-date{
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.post-date:before{
+   content: "\f073";  
+   font-family: FontAwesome;
+   padding-right: 5px;
+}
+
+a.readmore{
+    font-size: 14px;
+    color: rgba(231, 76, 60);
+}
+a.readmore:after{
+    content: "\f101";
+    font-family: FontAwesome;
+    padding-left: 5px;
 }
